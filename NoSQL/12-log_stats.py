@@ -6,6 +6,7 @@ Script that provides some stats about Nginx logs stored in MongoDB
 from pymongo import MongoClient
 
 def main():
+    """documentation""" 
     client = MongoClient()
     db = client.logs
     collection = db.nginx
