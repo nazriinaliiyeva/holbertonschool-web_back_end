@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""doc"""
+"""documentation"""
 
 
 def list_all(mongo_collection):
-    """doc"""
+    """documentation"""
 
 
     return list(mongo_collection.find())
