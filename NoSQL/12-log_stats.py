@@ -5,6 +5,7 @@
 from pymango import MongoClient
 
 if __name__ == "__main__":
+    """documentation"""
     client = MongoClient('mongodb://localhost:27017')
     db = client.logs
     collection = db.nginx
